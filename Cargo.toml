@@ -2,6 +2,10 @@
 name = "cargo-sponsor"
 version = "2025.1.12-1"
 edition = "2024"
+description = "Find sponsorship links for your Rust project's dependencies"
+license = "MIT"
+repository = "https://github.com/nikhiljha/cargo-sponsor"
+readme = "README.md"
 
 [dependencies]
 cargo_metadata = "0.23"
@@ -14,3 +18,6 @@ clap = { version = "4", features = ["derive"] }
 owo-colors = "4"
 url = "2"
 indicatif = "0.18"
+futures = "0.3"
+tracing = "0.1"
+tracing-subscriber = "0.3"
